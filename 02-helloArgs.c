@@ -5,7 +5,7 @@ int main(int argc, char **argv) {
   // argc is an automatically calculated value -> represents total number of
   // arguments stored in argv
   if (argc == 1)
-    printf("hello, world.\n");
+    printf("Usage: helloArgs <arg1 arg2 ...>\n");
   else {
     // `char **argv` is same as `char *argv[]`
     // it represents array of pointers to a string
