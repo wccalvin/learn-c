@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
     // it represents array of pointers to a string
     // in other words, each element of array is a pointer which points to a
     // string
-    // printf("argc=%d\n", argc);
+    printf("argc=%d\n", argc);
     for (int i = 0; i < argc; ++i)
       printf("argument: %d and value: %s\n", i, argv[i]);
   }
