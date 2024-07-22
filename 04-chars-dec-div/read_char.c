@@ -2,6 +2,7 @@
 
 int main(void) {
   char charName;
+  printf("Type a character: ");
   scanf("%c", &charName);
   printf("++++%c++++\n", charName);
   printf("+++%c%c%c+++\n", charName, charName, charName);
